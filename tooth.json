@@ -1,0 +1,60 @@
+{
+    "format_version": 1,
+    "tooth": "github.com/novelcraft/server-tooth",
+    "version": "0.0.1",
+    "information": {
+        "name": "NovelCraft Server",
+        "description": "NovelCraft Servers allow players to play online or via a local area network with other people.",
+        "author": "NovelCraft",
+        "license": "LGPL-3.0",
+        "homepage": "https://novelcraft.games"
+    },
+    "placement": [
+        {
+            "source": "common/*",
+            "destination": "*"
+        },
+        {
+            "source": "windows/386/*",
+            "destination": "*",
+            "GOOS": "windows",
+            "GOARCH": "386"
+        },
+        {
+            "source": "windows/amd64/*",
+            "destination": "*",
+            "GOOS": "windows",
+            "GOARCH": "amd64"
+        },
+        {
+            "source": "windows/arm64/*",
+            "destination": "*",
+            "GOOS": "windows",
+            "GOARCH": "arm64"
+        },
+        {
+            "source": "linux/amd64/*",
+            "destination": "*",
+            "GOOS": "linux",
+            "GOARCH": "amd64"
+        },
+        {
+            "source": "linux/arm/*",
+            "destination": "*",
+            "GOOS": "linux",
+            "GOARCH": "arm"
+        },
+        {
+            "source": "linux/arm64/*",
+            "destination": "*",
+            "GOOS": "linux",
+            "GOARCH": "arm64"
+        },
+        {
+            "source": "darwin/amd64/*",
+            "destination": "*",
+            "GOOS": "darwin",
+            "GOARCH": "amd64"
+        }
+    ]
+}
