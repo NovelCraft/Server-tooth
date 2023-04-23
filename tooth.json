@@ -1,7 +1,7 @@
 {
     "format_version": 1,
     "tooth": "github.com/novelcraft/server-tooth",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "information": {
         "name": "NovelCraft Server",
         "description": "NovelCraft Servers allow players to play online or via a local area network with other people.",
@@ -15,46 +15,58 @@
             "destination": "*"
         },
         {
-            "source": "windows/386/*",
-            "destination": "*",
-            "GOOS": "windows",
-            "GOARCH": "386"
-        },
-        {
-            "source": "windows/amd64/*",
-            "destination": "*",
-            "GOOS": "windows",
-            "GOARCH": "amd64"
-        },
-        {
-            "source": "windows/arm64/*",
-            "destination": "*",
-            "GOOS": "windows",
-            "GOARCH": "arm64"
-        },
-        {
-            "source": "linux/amd64/*",
-            "destination": "*",
-            "GOOS": "linux",
-            "GOARCH": "amd64"
-        },
-        {
-            "source": "linux/arm/*",
+            "source": "linux-arm/*",
             "destination": "*",
             "GOOS": "linux",
             "GOARCH": "arm"
         },
         {
-            "source": "linux/arm64/*",
+            "source": "linux-arm64/*",
             "destination": "*",
             "GOOS": "linux",
             "GOARCH": "arm64"
         },
         {
-            "source": "darwin/amd64/*",
+            "source": "linux-x64/*",
+            "destination": "*",
+            "GOOS": "linux",
+            "GOARCH": "amd64"
+        },
+        {
+            "source": "osx-arm64/*",
+            "destination": "*",
+            "GOOS": "darwin",
+            "GOARCH": "arm64"
+        },
+        {
+            "source": "osx-x64/*",
             "destination": "*",
             "GOOS": "darwin",
             "GOARCH": "amd64"
+        },
+        {
+            "source": "win-arm/*",
+            "destination": "*",
+            "GOOS": "windows",
+            "GOARCH": "arm"
+        },
+        {
+            "source": "win-arm64/*",
+            "destination": "*",
+            "GOOS": "windows",
+            "GOARCH": "arm64"
+        },
+        {
+            "source": "win-x64/*",
+            "destination": "*",
+            "GOOS": "windows",
+            "GOARCH": "amd64"
+        },
+        {
+            "source": "win-x86/*",
+            "destination": "*",
+            "GOOS": "windows",
+            "GOARCH": "386"
         }
     ]
 }
