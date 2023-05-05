@@ -1,7 +1,7 @@
 {
     "format_version": 1,
     "tooth": "github.com/novelcraft/server-tooth",
-    "version": "0.3.0",
+    "version": "0.3.1",
     "information": {
         "name": "NovelCraft Server",
         "description": "NovelCraft Servers allow players to play online or via a local area network with other people.",
