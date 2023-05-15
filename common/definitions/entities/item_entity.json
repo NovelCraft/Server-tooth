@@ -5,6 +5,11 @@
         "type_id": 1
     },
     "components": {
-        "physics": {}
+        "physics": {},
+        "collision_box": {
+            "width": 0.0,
+            "height": 0.0,
+            "eye_height": 0.0
+        }
     }
 }
